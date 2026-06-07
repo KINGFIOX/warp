@@ -1,0 +1,4 @@
+interface:
+  display_name: "Warp Dev Environment"
+  short_description: "Use the repo-local Nix and direnv development environment for Warp"
+  default_prompt: "Use $warp-dev-environment when working in the Warp repository so Codex relies on the active flake.nix/direnv shell, avoids redundant bootstrap work, and runs build/test commands from the prepared development environment."
